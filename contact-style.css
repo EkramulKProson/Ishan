@@ -1,0 +1,1076 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+                                                            /* nav bar */
+.checkbtn{
+    color: #ccc;
+    font-size: 25px;
+    float: right;
+    line-height: 80px;
+    cursor: pointer;
+    display: none;
+
+}
+#cheak{
+    display: none;
+
+}
+
+body{
+    background: #ffffff;
+}
+
+nav{
+    background: #193f52;
+    margin-top: 0;
+    border: 2px solid #8AE4CC;
+
+}
+.navbar{
+    position: sticky;
+    top: 0px;
+    z-index: 5;
+}
+
+nav:after{
+    content: '';
+    clear: both;
+    display: table;
+}
+
+nav ul{
+    margin-top: 11px;
+    margin-left: 300px;
+    float: right;
+    list-style: none;
+    position: relative;
+
+}
+nav ul li{
+    display: inline-block;
+    background: #193F52;
+    margin-top: 1px;
+
+}
+.navbar{
+    display: flex;
+}
+
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    line-height: 30px;
+    font-size: 20px;
+    padding: 9px 15px;
+}
+nav ul li a:hover{
+    color: #8AE4CC;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #8AE4CC,
+                0 0 5px #8AE4CC;
+}
+nav ul ul a:hover{
+    font-size: 22px;
+    color: #8AE4CC;
+    box-shadow: navy;
+    transition: 0.1s;
+}
+nav ul ul{
+    position: absolute;
+    top: 70px;
+    border-top: 3px solid #8AE4CC ;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.6s;
+    margin-left: 1px;
+}
+nav ul li:hover > ul{
+    top: 49px;
+    opacity: 1;
+    visibility: visible;
+}
+
+nav ul ul li{
+    position: relative;
+    margin: 0px;
+    float: none;
+    display: list-item;
+    border-bottom: 1px solid #8AE4CC;
+}
+nav ul ul li a{
+    line-height: 50px;
+}
+nav .logo{
+    float: left;
+    color: #8AE4CC;
+    font-size: 50px;
+    font-weight: 50px;
+    line-height: 19px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+#logo_under{
+    color: #8AE4CC;
+    margin-left: 150px;
+}
+.buttone{
+    width: 100%;
+    height: 45px;
+    max-width: 200px;
+    width: 100px;
+    border: 5px solid #8AE4CC;
+    border-radius: 10px;
+    margin-right: 0px;
+    background-color: #8AE4CC;
+    cursor: pointer;
+}
+.buttone :hover{
+    transition: 0.4s;
+    font-size: 15px;
+    background-color: none;
+}
+
+.boxhover :hover{
+    font-size: 22px;
+    transition: 0.4s;
+}
+.logooooo{
+    display: flex;
+}
+.amg{
+    color: #8AE4CC;
+    font-size: 50px;
+    margin-top: 5px;
+    margin-bottom: 7px;
+    margin-left: 20px;
+    font-family: 'Playfair Display', serif;
+
+}
+.oversis{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color: #52DCAE;
+    margin-top: 9%;
+    margin-left: 5px;
+}
+
+.boxhover{
+    width: auto;
+}
+
+                                                        /* head line part one */
+.btnn{
+    
+    font-size: 20px;
+    color: #000000;
+}
+#conus{
+    text-align: center;
+}
+.btn{
+    background-color: #8AE4CC;
+    width: 120px;
+    border: 3px solid #8AE4CC;
+    border-radius: 9px;
+    margin-top: 40px; 
+}
+
+.started{
+    margin-top: 30px;
+    font-size: 47px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+                                                                /* two divs */
+.twodiv{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 80px;
+    display: flex;
+    height: 280px;
+}
+.firstdiv{
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;    text-align: center;
+    width: 40%;
+}
+.seconddiv{
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;    text-align: center;
+    width: 40%;
+}
+
+#phone{
+    margin-top: 30px;
+    font-size: 28px;
+}
+#phonee{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#earth{
+    margin-top: 30px;
+    font-size: 28px;
+}
+.numbers{
+    font-size: 20px;
+    line-height: 32px;
+}
+.hrs{
+    margin: 3%;
+    margin-bottom: 2%;
+
+}
+
+
+                                                                        /* address pic */
+.map_pic{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    padding: 140px;
+
+}
+.mainmap{
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+}
+.builpic{
+    width: auto;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+
+}
+                                                            /* footer design */
+
+
+
+
+.footer{
+    width: 100%;
+    bottom: 0;
+    background: linear-gradient(to left, #193F52,#20BD89);
+    color: #fff;
+    padding: 30px 0 5px;
+    font-size: 16px;
+    line-height: 23px;
+}
+.hr{
+    width: 90%;
+    margin: 20px auto;
+
+}
+.sections{
+    padding: 6%;
+    padding-top: 0;
+    padding-bottom: 0;
+    display: flex;
+}
+.maintwo{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+.footerimg{
+    height: 50px;
+}
+.subtwo{
+    width: 45%;
+}
+.amgtext{
+    width: 80%;
+}
+
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 14px;
+}
+.social-icons .fa-brands{
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 70%;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    color: #000;
+    background: #fff;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+
+
+#location{
+    color: #000000;
+}
+
+
+
+
+
+
+/* responsive */
+
+
+
+
+
+
+@media screen and (max-width: 320px) and (min-width: 290px)
+{
+    nav{
+        width: auto;   
+        height: 80px;
+    
+    }
+    .checkbtn{
+        display: block;
+        margin-left: 15px;
+    }
+
+    #fullul{
+        position: fixed;
+        width: 150px;
+        height: auto;
+        background-color: #193F52;
+        top: 80px;
+        left: -100%;
+        transition: all .5s;
+        margin-left: 0px;
+        margin: 0;
+        text-align: start;
+    }
+    .firstli{
+        display: block;
+        line-height: 50px;
+    }
+    #cheak:checked ~ ul{
+        left: 0;
+    }
+    #country_self{
+        margin-left: 150px;
+        margin-top: 1px;
+    }
+    #service_self{
+        margin-left: 150px;
+        margin-top: 50px;
+    }
+    .buttone{
+        margin: 0;
+        margin-left: 15px;
+        font-size: 16px;
+        float: left;
+        margin-bottom: 20px;
+    }
+
+    .copyright{
+        font-size: 10px;
+        display: grid;
+        margin: 0;
+        text-align: center;
+        width: auto;
+ 
+    }
+    .develop{
+        margin: 0;
+        width: auto;
+    }
+
+
+
+
+
+
+    .started{
+        font-size: 30px;
+    }
+    .twodiv{
+        display: grid;
+        margin: 0;
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+    .firstdiv{
+        width: auto;
+    }
+    .seconddiv{
+        width: auto;
+    }
+
+
+
+    .two_pics{
+        display: grid;
+        margin: 0;
+    }
+    .picone{
+        box-shadow: none;
+        margin: 0;
+    }
+    .map_pic{
+        display: grid;
+        padding: 0;
+        margin-top: 400px;
+    }
+    .mainmap{
+        width: auto;
+        margin-bottom: 20px;
+    }
+    .builpic{
+        width: 300px;
+        margin-bottom: 100px;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 360px) and (min-width: 321px)
+
+{
+    nav{
+        width: auto;   
+        height: 80px;
+    
+    }
+    .checkbtn{
+        display: block;
+        margin-left: 15px;
+    }
+
+    #fullul{
+        position: fixed;
+        width: 150px;
+        height: auto;
+        background-color: #193F52;
+        top: 80px;
+        left: -100%;
+        transition: all .5s;
+        margin-left: 0px;
+        margin: 0;
+        text-align: start;
+    }
+    .firstli{
+        display: block;
+        line-height: 50px;
+    }
+    #cheak:checked ~ ul{
+        left: 0;
+    }
+    #country_self{
+        margin-left: 150px;
+        margin-top: 1px;
+    }
+    #service_self{
+        margin-left: 150px;
+        margin-top: 50px;
+    }
+    .buttone{
+        margin: 0;
+        margin-left: 15px;
+        font-size: 16px;
+        float: left;
+        margin-bottom: 20px;
+    }
+
+    .copyright{
+        font-size: 10px;
+        display: grid;
+        margin: 0;
+        text-align: center;
+        width: auto;
+ 
+    }
+    .develop{
+        margin: 0;
+        width: auto;
+    }
+
+
+
+
+
+
+    .started{
+        font-size: 35px;
+    }
+    .twodiv{
+        display: grid;
+        margin: 0;
+        width: auto;
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+    .firstdiv{
+        width: 40vh;
+    }
+    .seconddiv{
+        width: 40vh;
+    }
+
+
+
+    .two_pics{
+        display: grid;
+        margin: 0;
+    }
+    .picone{
+        box-shadow: none;
+        margin: 0;
+    }
+    .map_pic{
+        display: grid;
+        padding: 0;
+        margin-top: 400px;
+    }
+    .mainmap{
+        width: auto;
+        margin-bottom: 20px;
+    }
+    .builpic{
+        width: 350px;
+        margin-bottom: 100px;
+    }
+   
+
+
+}
+
+@media screen and (max-width: 414px) and (min-width: 361px)
+{
+    nav{
+        width: auto;   
+        height: 80px;
+    
+    }
+    .checkbtn{
+        display: block;
+        margin-left: 15px;
+    }
+
+    #fullul{
+        position: fixed;
+        width: 150px;
+        height: auto;
+        background-color: #193F52;
+        top: 80px;
+        left: -100%;
+        transition: all .5s;
+        margin-left: 0px;
+        margin: 0;
+        text-align: start;
+    }
+    .firstli{
+        display: block;
+        line-height: 50px;
+    }
+    #cheak:checked ~ ul{
+        left: 0;
+    }
+    #country_self{
+        margin-left: 150px;
+        margin-top: 1px;
+    }
+    #service_self{
+        margin-left: 150px;
+        margin-top: 50px;
+    }
+    .buttone{
+        margin: 0;
+        margin-left: 15px;
+        font-size: 16px;
+        float: left;
+        margin-bottom: 20px;
+    }
+
+    .copyright{
+        font-size: 10px;
+        display: grid;
+        margin: 0;
+        text-align: center;
+        width: auto;
+ 
+    }
+    .develop{
+        margin: 0;
+        width: auto;
+    }
+
+
+
+
+
+
+    .started{
+        font-size: 35px;
+    }
+    .twodiv{
+        padding: 28px;
+        display: grid;
+        margin: 0;
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+    .firstdiv{
+        width: 40vh;
+    }
+    .seconddiv{
+        width: 40vh;
+    }
+
+
+
+    .two_pics{
+        display: grid;
+        margin: 0;
+        width: auto;
+    }
+    .picone{
+        box-shadow: none;
+        margin: 0;
+    }
+    .map_pic{
+        display: grid;
+        padding: 0;
+        margin-top: 400px;
+    }
+    .mainmap{
+        width: auto;
+        margin-bottom: 20px;
+    }
+    .builpic{
+        width: 370px;
+        margin-bottom: 100px;
+    }
+
+
+
+
+
+}
+
+@media screen and (max-width: 1000px) and (min-width: 993px){
+    nav{
+        width: auto;   
+        height: 80px;
+    
+    }
+    .checkbtn{
+        display: block;
+        margin-left: 15px;
+    }
+
+    #fullul{
+        position: fixed;
+        width: 150px;
+        height: auto;
+        background-color: #193F52;
+        top: 80px;
+        left: -100%;
+        transition: all .5s;
+        margin-left: 0px;
+        margin: 0;
+        text-align: start;
+    }
+    .firstli{
+        display: block;
+        line-height: 50px;
+    }
+    #cheak:checked ~ ul{
+        left: 0;
+    }
+    #country_self{
+        margin-left: 150px;
+        margin-top: 1px;
+    }
+    #service_self{
+        margin-left: 150px;
+        margin-top: 50px;
+    }
+    .buttone{
+        margin: 0;
+        margin-left: 15px;
+        font-size: 16px;
+        float: left;
+        margin-bottom: 20px;
+    }
+
+    .copyright{
+        font-size: 10px;
+        display: grid;
+        margin: 0;
+        text-align: center;
+        width: auto;
+ 
+    }
+    .develop{
+        margin: 0;
+        width: auto;
+    }
+
+}
+
+
+@media screen and (max-width: 992px) and (min-width: 522px)
+{   nav{
+    width: auto;   
+    height: 80px;
+
+}
+.checkbtn{
+    display: block;
+    margin-left: 30px;
+}
+
+#fullul{
+    position: fixed;
+    width: 150px;
+    height: auto;
+    background-color: #193F52;
+    top: 80px;
+    left: -100%;
+    transition: all .5s;
+    margin-left: 0px;
+    margin: 0;
+    text-align: start;
+}
+.firstli{
+    display: block;
+    line-height: 50px;
+}
+#cheak:checked ~ ul{
+    left: 0;
+}
+#country_self{
+    margin-left: 150px;
+    margin-top: 1px;
+}
+#service_self{
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.buttone{
+    margin: 0;
+    margin-left: 15px;
+    font-size: 16px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.copyright{
+    font-size: 10px;
+    display: grid;
+    margin: 0;
+    text-align: center;
+    width: auto;
+
+}
+.develop{
+    margin: 0;
+    width: auto;
+}
+   .map_pic{
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-top: 400px;
+
+    display: grid;
+    margin-bottom: 100px;
+   }
+   .copyright{
+    font-size: 10px;
+    display: grid;
+    margin: 0;
+    text-align: center;
+    width: auto;
+
+}
+.develop{
+    margin: 0;
+    width: auto;
+}
+
+
+}
+
+ @media screen and (max-width: 1230px) and (min-width: 1001px)
+ {
+    nav{
+        width: auto;   
+        height: 80px;
+    
+    }
+    .checkbtn{
+        display: block;
+        margin-left: 15px;
+    }
+
+    #fullul{
+        position: fixed;
+        width: 150px;
+        height: auto;
+        background-color: #193F52;
+        top: 80px;
+        left: -100%;
+        transition: all .5s;
+        margin-left: 0px;
+        margin: 0;
+        text-align: start;
+    }
+    .firstli{
+        display: block;
+        line-height: 50px;
+    }
+    #cheak:checked ~ ul{
+        left: 0;
+    }
+    #country_self{
+        margin-left: 150px;
+        margin-top: 1px;
+    }
+    #service_self{
+        margin-left: 150px;
+        margin-top: 50px;
+    }
+    .buttone{
+        margin: 0;
+        margin-left: 15px;
+        font-size: 16px;
+        float: left;
+        margin-bottom: 20px;
+    }
+
+    .copyright{
+        font-size: 10px;
+        display: grid;
+        margin: 0;
+        text-align: center;
+        width: auto;
+ 
+    }
+    .develop{
+        margin: 0;
+        width: auto;
+    }
+ }
+ 
+ @media screen and (max-width: 521px) and (min-width: 415px)
+{
+    nav{
+        width: auto;   
+        height: 80px;
+    
+    }
+    .checkbtn{
+        display: block;
+        margin-left: 15px;
+    }
+
+    #fullul{
+        position: fixed;
+        width: 150px;
+        height: auto;
+        background-color: #193F52;
+        top: 80px;
+        left: -100%;
+        transition: all .5s;
+        margin-left: 0px;
+        margin: 0;
+        text-align: start;
+    }
+    .firstli{
+        display: block;
+        line-height: 50px;
+    }
+    #cheak:checked ~ ul{
+        left: 0;
+    }
+    #country_self{
+        margin-left: 150px;
+        margin-top: 1px;
+    }
+    #service_self{
+        margin-left: 150px;
+        margin-top: 50px;
+    }
+    .buttone{
+        margin: 0;
+        margin-left: 15px;
+        font-size: 16px;
+        float: left;
+        margin-bottom: 20px;
+    }
+
+    .copyright{
+        font-size: 10px;
+        display: grid;
+        margin: 0;
+        text-align: center;
+        width: auto;
+ 
+    }
+    .develop{
+        margin: 0;
+        width: auto;
+    }
+
+
+
+
+
+
+    .started{
+        font-size: 35px;
+    }
+    .twodiv{
+        padding: 28px;
+        display: grid;
+        margin: 0;
+        width: auto;
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+    .firstdiv{
+        width: auto;
+    }
+    .seconddiv{
+        width: auto;
+    }
+
+
+
+    .two_pics{
+        display: grid;
+        margin: 0;
+        width: auto;
+    }
+    .picone{
+        box-shadow: none;
+        margin: 0;
+    }
+    .map_pic{
+        display: grid;
+        padding: 0;
+        margin-top: 400px;
+    }
+    .mainmap{
+        width: auto;
+        margin-bottom: 20px;
+    }
+    .builpic{
+        width: 370px;
+        margin-bottom: 100px;
+    }
+
+
+
+
+}
+@media screen and (max-width: 398px) and (min-width: 384px)
+{
+    .oversis{
+        margin-top: 9.5%;
+    }
+}
+@media screen and (max-width: 383px) and (min-width: 200px)
+{
+    .oversis{
+        margin-top: 3%;
+    }
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 360px) and (min-width: 280px)
+{
+    .maintwo{
+        display: grid;
+    }
+    .subtwo{
+        width: 100%;
+        font-size: small;
+    }
+    .secound{
+        padding-top: 40px;
+    }
+    .copyright{
+        width: 100%;
+        font-size: 10px;
+        display: grid;
+        text-align: center;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 414px) and (min-width: 361px)
+{
+    .maintwo{
+        display: grid;
+    }
+    .subtwo{
+        width: 100%;
+        font-size: small;
+    }
+    .secound{
+        padding-top: 40px;
+    }
+    .copyright{
+        width: 100%;
+        font-size: 10px;
+        display: grid;
+        text-align: center;
+        justify-content: center;
+    }
+
+
+}
+
+@media screen and (max-width: 993px) and (min-width: 820px)
+{
+    .amgtext{
+        width: 100%;
+    } 
+}
+@media screen and (max-width: 819px) and (min-width: 415px)
+{
+    .maintwo{
+        display: grid;
+    }
+    .subtwo{
+        width: 100%;
+    }
+    .secound{
+        padding-top: 40px;
+    }
+    .copyright{
+        width: 100%;
+        font-size: 10px;
+        display: grid;
+        text-align: center;
+        justify-content: center;
+    }
+   
+}

@@ -1,0 +1,1424 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+                                                            /* nav bar */
+.checkbtn{
+    color: #ccc;
+    font-size: 25px;
+    float: right;
+    line-height: 80px;
+    cursor: pointer;
+    display: none;
+
+}
+#cheak{
+    display: none;
+
+}
+
+body{
+    background: #ffffff;
+}
+
+nav{
+    background: #193f52;
+    margin-top: 0;
+    border: 2px solid #8AE4CC;
+
+}
+.navbar{
+    position: sticky;
+    top: 0px;
+    z-index: 5;
+}
+
+nav:after{
+    content: '';
+    clear: both;
+    display: table;
+}
+
+nav ul{
+    margin-top: 11px;
+    margin-left: 300px;
+    float: right;
+    list-style: none;
+    position: relative;
+
+}
+nav ul li{
+    display: inline-block;
+    background: #193F52;
+    margin-top: 1px;
+
+}
+.navbar{
+    display: flex;
+}
+
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    line-height: 30px;
+    font-size: 20px;
+    padding: 9px 15px;
+}
+nav ul li a:hover{
+    color: #8AE4CC;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #8AE4CC,
+                0 0 5px #8AE4CC;
+}
+nav ul ul a:hover{
+    font-size: 22px;
+    color: #8AE4CC;
+    box-shadow: navy;
+    transition: 0.1s;
+}
+nav ul ul{
+    position: absolute;
+    top: 70px;
+    border-top: 3px solid #8AE4CC ;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.6s;
+    margin-left: 1px;
+}
+nav ul li:hover > ul{
+    top: 49px;
+    opacity: 1;
+    visibility: visible;
+}
+
+nav ul ul li{
+    position: relative;
+    margin: 0px;
+    float: none;
+    display: list-item;
+    border-bottom: 1px solid #8AE4CC;
+}
+nav ul ul li a{
+    line-height: 50px;
+}
+nav .logo{
+    float: left;
+    color: #8AE4CC;
+    font-size: 50px;
+    font-weight: 50px;
+    line-height: 19px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+#logo_under{
+    color: #8AE4CC;
+    margin-left: 150px;
+}
+.buttone{
+    width: 100%;
+    height: 45px;
+    max-width: 200px;
+    width: 100px;
+    border: 5px solid #8AE4CC;
+    border-radius: 10px;
+    margin-right: 0px;
+    background-color: #8AE4CC;
+    cursor: pointer;
+}
+.buttone :hover{
+    transition: 0.4s;
+    font-size: 15px;
+    background-color: none;
+}
+
+.boxhover :hover{
+    font-size: 22px;
+    transition: 0.4s;
+}
+.logooooo{
+    display: flex;
+}
+.amg{
+    color: #8AE4CC;
+    font-size: 50px;
+    margin-top: 5px;
+    margin-bottom: 7px;
+    margin-left: 20px;
+    font-family: 'Playfair Display', serif;
+}
+.oversis{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color: #52DCAE;
+    margin-top: 9%;
+    margin-left: 5px;
+}
+
+.boxhover{
+    width: auto;
+}
+
+
+  
+
+
+
+
+                                                        /* pic slide */
+
+.container{
+    width: auto;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper{
+    width: 100%;
+    height: fit-content;
+
+}
+.swiper-slide img{
+    width: 100%;
+
+}
+.unipicss{
+    font-size: 50px;
+}
+
+
+
+
+                                                            /* OUR UNIVERSITY PERTNER CSS */
+
+.our{
+    margin-top: 200px;
+    margin-bottom: 200px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+
+#blabla{
+    width: 100%;
+}
+#abcde{
+    width: 80%;
+}
+
+#btnns{
+    color: #ffffff00;
+}
+
+
+
+                                                            /* HOME ABOUT */
+.hmabt{
+    margin-top: 300px;
+    background-color: #2E6671;
+    height: auto;
+    box-sizing: border-box;
+    border-top: 40px solid #6FC9A6;
+    border-top-right-radius: 400px;
+    border-top-left-radius: 400px;
+}
+.about{
+    font-size: 18px;
+    margin: 150px;
+    margin-bottom: 0;
+    height: 25px;
+    width: 115px;
+    background-color: #6FC9A6;
+    border: 1px solid #6FC9A6;
+    border-radius: 15px;
+}
+.amgg{
+    color: #ffffff;
+    margin-top: 30px;
+    margin-left: 145px;
+}
+.amggg{
+    color: #ffffff;
+    margin-top: 5px;
+    margin-left: 147px;
+}
+.pera1{
+    margin-left: 70px;
+    margin-top: 20px;
+    color: #ffffff;
+}
+
+#perapic{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    margin: 0px 80px;
+}
+
+.hmabtthreeoptions{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 100px;
+}
+.threedivs{
+    width: 100%;
+}
+
+.to{
+    color: #ffffff;
+}
+.fa-sharp{
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+                                                            /* Comment card */
+
+
+.comntcard{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: none;
+  }
+  .slide-container{
+    max-width: 1120px;
+    width: 100%;
+    padding: 40px 0;
+  }
+  .slide-content{
+    margin: 0 40px;
+    overflow: hidden;
+    border-radius: 25px;
+  }
+  .card{
+    border-radius: 25px;
+    background-color: #FFF;
+  }
+  .image-content,
+  .card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+  }
+  .card-content{
+    /* border-left: 1px solid black; */
+    border-bottom: 1px solid black;
+  }
+  .image-content{
+    position: relative;
+    row-gap: 5px;
+    padding: 25px 0;
+  }
+  .overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #2E6671;
+    border-radius: 25px 25px 0 25px;
+  }
+  .overlay::before,
+  .overlay::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    height: 40px;
+    width: 40px;
+    background-color: #2E6671;
+  }
+  .overlay::after{
+    border-radius: 0 25px 0 0;
+    background-color: #ffffff;
+  }
+  .card-image{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: #FFF;
+    padding: 3px;
+  }
+  .card-image .card-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #2E6671;
+  }
+  .name{
+    font-weight: bolder;
+    font-size: 22px;
+    font-weight: 700;
+    color: #333;
+  }
+  .description{
+    height: 140PX;
+    padding: 7px;
+    font-size: 14px;
+    color: #707070;
+    text-align: center;
+  }
+  .button{
+    border: none;
+    font-size: 16px;
+    color: #FFF;
+    padding: 8px 16px;
+    background-color: #6FC9A6;
+    border-radius: 6px;
+    margin: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  .button:hover{
+    background: #2E6671;
+  }
+  
+  .swiper-navBtn{
+    color: #2E6671;
+    transition: color 0.3s ease;
+  }
+  .swiper-navBtn:hover{
+    color: #2E6671;
+  }
+  .swiper-navBtn::before,
+  .swiper-navBtn::after{
+    font-size: 35px;
+  }
+  .swiper-button-next{
+    right: 0;
+  }
+  .swiper-button-prev{
+    left: 0;
+  }
+  .swiper-pagination-bullet{
+    background-color: #2E6671;
+    opacity: 1;
+  }
+  .swiper-pagination-bullet-active{
+    background-color: #2E6671;
+  }
+
+
+  #arrows{
+    color: #ffffff00;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .slide-content{
+      margin: 0 10px;
+    }
+    .swiper-navBtn{
+      display: none;
+    }
+  }
+
+
+
+
+                                                            /* footer design */
+.footer{
+    width: 100%;
+    bottom: 0;
+    background: linear-gradient(to left, #193F52,#20BD89);
+    color: #fff;
+    padding: 30px 0 5px;
+    font-size: 16px;
+    line-height: 23px;
+}
+.hr{
+    width: 90%;
+    margin: 20px auto;
+
+}
+.sections{
+    padding: 6%;
+    padding-top: 0;
+    padding-bottom: 0;
+    display: flex;
+}
+.maintwo{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+.footerimg{
+    height: 50px;
+}
+.subtwo{
+    width: 45%;
+}
+.amgtext{
+    width: 80%;
+}
+
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 14px;
+}
+.social-icons .fa-brands{
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 70%;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    color: #000;
+    background: #fff;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+
+
+
+
+#location{
+    color: #000000;
+}
+
+
+
+
+
+
+
+                                                    /* responsive part */
+@media screen and (max-width: 320px) and (min-width: 280px)
+{
+    nav{
+        width: auto;   
+        height: 80px;
+    
+    }
+    .checkbtn{
+        display: block;
+        margin-left: 15px;
+    }
+
+    #fullul{
+        position: fixed;
+        width: 150px;
+        height: auto;
+        background-color: #193F52;
+        top: 80px;
+        left: -100%;
+        transition: all .5s;
+        margin-left: 0px;
+        margin: 0;
+        text-align: start;
+    }
+    .firstli{
+        display: block;
+        line-height: 50px;
+    }
+    #cheak:checked ~ ul{
+        left: 0;
+    }
+    #country_self{
+        margin-left: 150px;
+        margin-top: 1px;
+    }
+    #service_self{
+        margin-left: 150px;
+        margin-top: 50px;
+    }
+    .buttone{
+        margin: 0;
+        margin-left: 15px;
+        font-size: 16px;
+        float: left;
+        margin-bottom: 20px;
+    }
+    
+
+
+
+
+    .container{
+        height: 165px;
+    }
+    .our{
+        font-size: 35px;
+        margin-top: 20px;
+        margin-left: 1px;
+        margin-bottom: 30px;
+        align-items: center;
+        text-align: center;
+    }
+    .twos{
+        height: 50px;
+    }
+   
+
+    .hmabt{
+        margin-top: 150px;
+        height: auto;
+        box-sizing: border-box;
+        border-top-right-radius: 70px;
+        border-top-left-radius: 70px;
+    
+    }
+    #perapic{
+        display: grid;
+        margin-top: 30px;
+    }
+    .about{
+        margin: 30%;
+        margin-right: 0;
+    }
+    
+    .amgg{
+        text-align: center;
+        margin: 0px;
+        padding: 0px;
+        font-size: 12px;
+        margin-top: 20px;
+
+    }
+    .amggg{
+        font-size: 12px;
+        text-align: center;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .pera1{
+        text-align: center;
+        margin-left: 20px;
+        font-size: 13px;
+        width: 85%;
+    
+    }
+    #imaaaaaa{
+        margin-top: 30px;
+        height: 180px;
+
+    }
+    .hmabtthreeoptions{
+        display: grid;
+        padding: 0px;
+        padding-left: 30px;
+        padding-bottom: 100px;
+    
+    }
+    .threedivs{
+        padding-top: 50px;
+    }
+
+
+
+
+    .copyright{
+        font-size: 10px;
+        display: grid;
+        margin: 0;
+        text-align: center;
+        width: auto;
+ 
+    }
+    .develop{
+        margin: 0;
+        width: auto;
+    }
+
+
+
+
+
+    .picture_cont_pic{
+        margin-left: 108px;
+    }
+    .card p{
+        padding: 10px;
+    }
+
+}
+
+@media screen and (max-width: 360px) and (min-width: 321px)
+
+{
+    nav{
+        width: auto;   
+        height: 80px;
+    
+    }
+    .checkbtn{
+        display: block;
+        margin-left: 15px;
+    }
+
+    #fullul{
+        position: fixed;
+        width: 150px;
+        height: auto;
+        background-color: #193F52;
+        top: 80px;
+        left: -100%;
+        transition: all .5s;
+        margin-left: 0px;
+        margin: 0;
+        text-align: start;
+    }
+    .firstli{
+        display: block;
+        line-height: 50px;
+    }
+    #cheak:checked ~ ul{
+        left: 0;
+    }
+    #country_self{
+        margin-left: 150px;
+        margin-top: 1px;
+    }
+    #service_self{
+        margin-left: 150px;
+        margin-top: 50px;
+    }
+    .buttone{
+        margin: 0;
+        margin-left: 15px;
+        font-size: 16px;
+        float: left;
+        margin-bottom: 20px;
+    }
+    
+
+
+
+
+    .container{
+        height: 185px;
+    }
+    .our{
+        font-size: 35px;
+        margin-top: 20px;
+        margin-left: 1px;
+        margin-bottom: 30px;
+        align-items: center;
+        text-align: center;
+    }
+    .twos{
+        height: 50px;
+    }
+
+    .hmabt{
+        margin-top: 150px;
+        height: auto;
+        box-sizing: border-box;
+        border-top-right-radius: 70px;
+        border-top-left-radius: 70px;
+    
+    }
+    .about{
+        margin: 30%;
+        margin-right: 0;
+    }
+    #perapic{
+        display: grid;
+        margin-top: 30px;
+    }
+  
+    .amgg{
+        text-align: center;
+        margin: 0px;
+        padding: 0px;
+        font-size: 12px;
+        margin-top: 20px;
+
+    }
+    .amggg{
+        font-size: 12px;
+        text-align: center;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .pera1{
+        text-align: center;
+        margin-left: 20px;
+        font-size: 15px;
+        width: 85%;
+    
+    }
+    #imaaaaaa{
+        margin-top: 30px;
+        height: 210px;
+    }
+    .hmabtthreeoptions{
+        display: grid;
+        padding: 0px;
+        padding-left: 30px;
+        padding-bottom: 100px;
+    
+    }
+    .threedivs{
+        padding-top: 50px;
+    }
+
+
+
+
+    .copyright{
+        font-size: 10px;
+        display: grid;
+        margin: 0;
+        text-align: center;
+        width: auto;
+ 
+    }
+    .develop{
+        margin: 0;
+        width: auto;
+    }
+
+
+
+
+
+    .picture_cont_pic{
+        margin-left: 108px;
+    }
+    .card p{
+        padding: 10px;
+    }
+
+}
+
+@media screen and (max-width: 414px) and (min-width: 361px)
+{
+    nav{
+        width: auto;   
+        height: 80px;
+    
+    }
+    .checkbtn{
+        display: block;
+        margin-left: 15px;
+    }
+
+    #fullul{
+        position: fixed;
+        width: 150px;
+        height: auto;
+        background-color: #193F52;
+        top: 80px;
+        left: -100%;
+        transition: all .5s;
+        margin-left: 0px;
+        margin: 0;
+        text-align: start;
+    }
+    .firstli{
+        display: block;
+        line-height: 50px;
+    }
+    #cheak:checked ~ ul{
+        left: 0;
+    }
+    #country_self{
+        margin-left: 150px;
+        margin-top: 1px;
+    }
+    #service_self{
+        margin-left: 150px;
+        margin-top: 50px;
+    }
+    .buttone{
+        margin: 0;
+        margin-left: 15px;
+        font-size: 16px;
+        float: left;
+        margin-bottom: 20px;
+    }
+    
+
+
+
+
+    .container{
+        height: 220px;
+    }
+    .our{
+        font-size: 35px;
+        margin-top: 20px;
+        margin-left: 1px;
+        align-items: center;
+        text-align: center;
+    }
+    .twos{
+        height: 50px;
+    }
+
+    .hmabt{
+        margin-top: 150px;
+        height: auto;
+        box-sizing: border-box;
+        border-top-right-radius: 70px;
+        border-top-left-radius: 70px;
+    
+    }
+    .about{
+        margin: 35%;
+        margin-right: 0;
+    }
+    .our{
+        margin-bottom: 40px;
+    }
+    #perapic{
+        display: grid;
+        margin-top: 30px;
+    }
+   
+    
+    .amgg{
+        text-align: center;
+        margin: 0px;
+        padding: 0px;
+        font-size: 12px;
+        margin-top: 20px;
+
+    }
+    .amggg{
+        font-size: 12px;
+        text-align: center;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .pera1{
+        text-align: center;
+        margin-left: 20px;
+        font-size: 15px;
+        width: 90%;
+    
+    }
+    #imaaaaaa{
+        margin-top: 30px;
+        height: 230px;
+    }
+    .hmabtthreeoptions{
+        display: grid;
+        padding: 0px;
+        padding-left: 30px;
+        padding-bottom: 100px;
+    
+    }
+    .threedivs{
+        padding-top: 50px;
+    }
+    .comntcard{
+        min-height: 600px;
+    }
+
+
+
+
+    .copyright{
+        font-size: 10px;
+        display: grid;
+        margin: 0;
+        text-align: center;
+        justify-content: center;
+        width: 330px;
+ 
+    }
+    .develop{
+        margin: 0;
+        width: auto;
+    }
+
+
+
+
+
+    .picture_cont_pic{
+        margin-left: 108px;
+    }
+    .card p{
+        padding: 10px;
+    }
+
+}
+
+@media screen and (max-width: 1244px) and (min-width: 994px){
+    nav{
+        width: auto;   
+        height: 80px;
+    
+    }
+    .checkbtn{
+        display: block;
+        margin-left: 15px;
+    }
+
+    #fullul{
+        position: fixed;
+        width: 150px;
+        height: auto;
+        background-color: #193F52;
+        top: 80px;
+        left: -100%;
+        transition: all .5s;
+        margin-left: 0px;
+        margin: 0;
+        text-align: start;
+    }
+    .firstli{
+        display: block;
+        line-height: 50px;
+    }
+    #cheak:checked ~ ul{
+        left: 0;
+    }
+    #country_self{
+        margin-left: 150px;
+        margin-top: 1px;
+    }
+    #service_self{
+        margin-left: 150px;
+        margin-top: 50px;
+    }
+    .buttone{
+        margin: 0;
+        margin-left: 15px;
+        font-size: 16px;
+        float: left;
+        margin-bottom: 20px;
+    }
+    .copyright{
+        font-size: 10px;
+        display: grid;
+        margin: 0;
+        text-align: center;
+        width: 1000px;
+ 
+    }
+    .develop{
+        margin: 0;
+        width: auto;
+    }
+
+}
+
+
+@media screen and (max-width: 993px) and (min-width: 798px)
+{
+    .perapic{
+        display: grid;
+    } 
+    nav{
+        width: auto;   
+        height: 80px;
+    
+    }
+    .checkbtn{
+        display: block;
+        margin-left: 15px;
+    }
+
+    #fullul{
+        position: fixed;
+        width: 150px;
+        height: auto;
+        background-color: #193F52;
+        top: 80px;
+        left: -100%;
+        transition: all .5s;
+        margin-left: 0px;
+        margin: 0;
+        text-align: start;
+    }
+    .firstli{
+        display: block;
+        line-height: 50px;
+    }
+    #cheak:checked ~ ul{
+        left: 0;
+    }
+    #country_self{
+        margin-left: 150px;
+        margin-top: 1px;
+    }
+    #service_self{
+        margin-left: 150px;
+        margin-top: 50px;
+    }
+    .buttone{
+        margin: 0;
+        margin-left: 15px;
+        font-size: 16px;
+        float: left;
+        margin-bottom: 20px;
+    }
+
+
+    .container{
+        height: 400px;
+    }
+    .our{
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+
+    .twos{
+        height: 50px;
+    }
+    .about{
+        text-align: center;
+        margin-left: 180px;
+    }
+    .hmabt{
+        margin-top: 200px;
+        height: auto;
+        box-sizing: border-box;
+        border-top-right-radius: 70px;
+        border-top-left-radius: 70px;
+    
+    }
+    #perapic{
+        display: grid;
+        margin-top: 30px;
+    }
+    .pera1{
+        width: 400px;
+        font-size: 18px;
+    }
+    
+    .amgg{
+        text-align: center;
+        margin: 0px;
+        padding: 0px;
+        font-size: 12px;
+        margin-top: 20px;
+
+    }
+    .amggg{
+        font-size: 12px;
+        text-align: center;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .pera1{
+        text-align: center;
+        margin-left: 20px;
+        font-size: 15px;
+        width: 700px;
+    
+    }
+    #imaaaaaa{
+        margin-left: 50px;
+        margin-top: 30px;
+        height: 444px;
+    }
+    .hmabtthreeoptions{
+        display: grid;
+        padding: 0px;
+        padding-left: 280px;
+        padding-bottom: 100px;
+    
+    }
+    .threedivs{
+        padding-top: 50px;
+    }
+    .picture_cont_pic{
+        margin-left: 60px;
+    }
+    .card p{
+        padding: 10px;
+    }
+    .comntcard{
+        min-height: 50vh;
+    }
+
+
+
+
+
+    .copyright{
+        font-size: 10px;
+        display: grid;
+        margin: 0;
+        text-align: center;
+        width: 800px;
+ 
+    }
+    .develop{
+        margin: 0;
+        width: auto;
+    }
+
+
+}
+@media screen and (max-width: 798px) and (min-width: 415px)
+{
+    nav{
+        width: auto;   
+        height: 80px;
+    
+    }
+    .checkbtn{
+        display: block;
+        margin-left: 15px;
+    }
+
+    #fullul{
+        position: fixed;
+        width: 150px;
+        height: auto;
+        background-color: #193F52;
+        top: 80px;
+        left: -100%;
+        transition: all .5s;
+        margin-left: 0px;
+        margin: 0;
+        text-align: start;
+    }
+    .firstli{
+        display: block;
+        line-height: 50px;
+    }
+    #cheak:checked ~ ul{
+        left: 0;
+    }
+    #country_self{
+        margin-left: 150px;
+        margin-top: 1px;
+    }
+    #service_self{
+        margin-left: 150px;
+        margin-top: 50px;
+    }
+    .buttone{
+        margin: 0;
+        margin-left: 15px;
+        font-size: 16px;
+        float: left;
+        margin-bottom: 20px;
+    }
+    
+
+
+
+
+    .container{
+        height: 220px;
+    }
+    .our{
+        font-size: 35px;
+        margin-top: 20%;
+        margin-left: 1px;
+        align-items: center;
+        text-align: center;
+    }
+    .twos{
+        height: 50px;
+    }
+
+    .hmabt{
+        margin-top: 150px;
+        height: auto;
+        box-sizing: border-box;
+        border-top-right-radius: 70px;
+        border-top-left-radius: 70px;
+    
+    }
+    .our{
+        margin-bottom: 40px;
+    }
+    #perapic{
+        display: grid;
+        margin-top: 30px;
+    }
+    .pera1{
+        width: 400px;
+        font-size: 18px;
+    }
+    
+    .amgg{
+        text-align: center;
+        margin: 0px;
+        padding: 0px;
+        font-size: 12px;
+        margin-top: 20px;
+
+    }
+    .amggg{
+        font-size: 12px;
+        text-align: center;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .pera1{
+        text-align: center;
+        margin-left: 20px;
+        font-size: 15px;
+        width: 330px;
+    
+    }
+    #imaaaaaa{
+        margin-top: 30px;
+        height: 240px;
+    }
+    .hmabtthreeoptions{
+        display: grid;
+        padding: 0px;
+        padding-left: 30px;
+        padding-bottom: 100px;
+    
+    }
+    .threedivs{
+        padding-top: 50px;
+    }
+    .comntcard{
+        min-height: 600px;
+    }
+
+
+
+
+    .copyright{
+        font-size: 10px;
+        display: grid;
+        margin: 0;
+        text-align: center;
+        justify-content: center;
+        width: 330px;
+ 
+    }
+    .develop{
+        margin: 0;
+        width: auto;
+    }
+
+
+
+
+
+    .picture_cont_pic{
+        margin-left: 108px;
+    }
+    .card p{
+        padding: 10px;
+    }
+
+}
+@media screen and (max-width: 398px) and (min-width: 384px)
+{
+    .oversis{
+        margin-top: 9.5%;
+    }
+}
+@media screen and (max-width: 383px) and (min-width: 200px)
+{
+    .oversis{
+        margin-top: 3%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 360px) and (min-width: 280px)
+{
+    .maintwo{
+        display: grid;
+    }
+    .subtwo{
+        width: 100%;
+        font-size: small;
+    }
+    .secound{
+        padding-top: 40px;
+    }
+    .copyright{
+        width: 100%;
+        font-size: 10px;
+        display: grid;
+        text-align: center;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 414px) and (min-width: 361px)
+{
+    .maintwo{
+        display: grid;
+    }
+    .subtwo{
+        width: 100%;
+        font-size: small;
+    }
+    .secound{
+        padding-top: 40px;
+    }
+    .copyright{
+        width: 100%;
+        font-size: 10px;
+        display: grid;
+        text-align: center;
+        justify-content: center;
+    }
+
+
+}
+
+@media screen and (max-width: 993px) and (min-width: 820px)
+{
+    .amgtext{
+        width: 100%;
+    } 
+}
+@media screen and (max-width: 819px) and (min-width: 415px)
+{
+    .maintwo{
+        display: grid;
+    }
+    .subtwo{
+        width: 100%;
+    }
+    .secound{
+        padding-top: 40px;
+    }
+    .copyright{
+        width: 100%;
+        font-size: 10px;
+        display: grid;
+        text-align: center;
+        justify-content: center;
+    }
+   
+}
